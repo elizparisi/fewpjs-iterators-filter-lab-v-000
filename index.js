@@ -2,6 +2,6 @@
 
 function findMatching(driver, string){
   let matching = driver.filter(driver => {
-    return driver === string;
+    return matching === string;
   });
 }
