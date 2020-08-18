@@ -9,6 +9,6 @@ function findMatching(drivers, string){
 function fuzzyMatch(drivers, string){
   return drivers.filter(driver => {
     let startsWith = driver.sclice(0, 1);
-    return startsWith.include(string);
+    return startsWith.includes(string);
   });
 }
